@@ -1,0 +1,23 @@
+Page{
+	Pid
+	Title
+	Content
+	Link
+}
+
+User{
+	Uid
+	username
+	password
+	email
+	access
+	role
+}
+Blocks{
+	Bid	
+	Region
+	pages
+	Title
+	Content
+}
+
