@@ -21,3 +21,16 @@ Blocks{
 	Content
 }
 
+history{
+	pid
+	uid
+	time
+}
+
+sessions{
+	uid
+	ssid
+	time
+}
+
+
