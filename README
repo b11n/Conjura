@@ -1,9 +1,9 @@
 Conjura website design.
 Project initilized.
 
-Copy and paste the config.php.sample as config.php.sample 
+Copy and paste the config.php.sample as config.php
 and provide it with the configurations for the database.
 
 To register admin 
 during the first run use the following format
-index.html?user=<username>&password=<password>
+`index.html?user=<username>&password=<password>`
