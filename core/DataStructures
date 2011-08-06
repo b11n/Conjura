@@ -1,17 +1,22 @@
 Page{
 	Pid
 	Title
+	Summary
 	Content
 	Link
+	next
 }
 
 User{
 	Uid
+	first_name
+	last_name
+	college
 	username
 	password
 	email
 	access
-	role
+	status	
 }
 Blocks{
 	Bid	
@@ -30,7 +35,13 @@ history{
 sessions{
 	uid
 	ssid
+	browser
+	ip
 	time
+}
+config{
+	settings
+	value
 }
 
 
