@@ -42,6 +42,9 @@ function database_connect()
 		$sql = "CREATE TABLE config(settings VARCHAR(50), value VARCHAR(50))";
 		$ref = mysql_query($sql);
 		$result = mysql_result($ref,0);
+
+		require_once("firstreg.php");		
+		admin_reg();
 	}
 }
 
